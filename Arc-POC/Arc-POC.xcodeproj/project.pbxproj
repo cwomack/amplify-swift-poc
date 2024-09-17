@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC967EA92C9802E8008C3ACE /* Arc_POCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC967EA82C9802E8008C3ACE /* Arc_POCApp.swift */; };
+		AC967EAB2C9802E8008C3ACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC967EAA2C9802E8008C3ACE /* ContentView.swift */; };
+		AC967EAD2C9802E8008C3ACE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC967EAC2C9802E8008C3ACE /* Item.swift */; };
+		AC967EAF2C9802E9008C3ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC967EAE2C9802E9008C3ACE /* Assets.xcassets */; };
+		AC967EB32C9802E9008C3ACE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC967EB22C9802E9008C3ACE /* Preview Assets.xcassets */; };
+		AC967EBD2C9802E9008C3ACE /* Arc_POCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC967EBC2C9802E9008C3ACE /* Arc_POCTests.swift */; };
+		AC967EC72C9802E9008C3ACE /* Arc_POCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC967EC62C9802E9008C3ACE /* Arc_POCUITests.swift */; };
+		AC967EC92C9802E9008C3ACE /* Arc_POCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC967EC82C9802E9008C3ACE /* Arc_POCUITestsLaunchTests.swift */; };
+		AC967EDB2C98BFDC008C3ACE /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = AC967EDA2C98BFDC008C3ACE /* Amplify */; };
+		AC967EDD2C98BFDC008C3ACE /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AC967EDC2C98BFDC008C3ACE /* AWSCognitoAuthPlugin */; };
+		AC967EDF2C98BFDC008C3ACE /* Authenticator in Frameworks */ = {isa = PBXBuildFile; productRef = AC967EDE2C98BFDC008C3ACE /* Authenticator */; };
+		AC967EE12C98C03A008C3ACE /* amplify_outputs.json in Resources */ = {isa = PBXBuildFile; fileRef = AC967EE02C98C022008C3ACE /* amplify_outputs.json */; };
+		AC967EE32C98FC0E008C3ACE /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AC967EE22C98FC0E008C3ACE /* AWSAPIPlugin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC967EB92C9802E9008C3ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC967E9D2C9802E8008C3ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC967EA42C9802E8008C3ACE;
+			remoteInfo = "Arc-POC";
+		};
+		AC967EC32C9802E9008C3ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC967E9D2C9802E8008C3ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC967EA42C9802E8008C3ACE;
+			remoteInfo = "Arc-POC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC967EA52C9802E8008C3ACE /* Arc-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arc-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC967EA82C9802E8008C3ACE /* Arc_POCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc_POCApp.swift; sourceTree = "<group>"; };
+		AC967EAA2C9802E8008C3ACE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC967EAC2C9802E8008C3ACE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AC967EAE2C9802E9008C3ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC967EB02C9802E9008C3ACE /* Arc_POC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arc_POC.entitlements; sourceTree = "<group>"; };
+		AC967EB22C9802E9008C3ACE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC967EB82C9802E9008C3ACE /* Arc-POCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arc-POCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC967EBC2C9802E9008C3ACE /* Arc_POCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc_POCTests.swift; sourceTree = "<group>"; };
+		AC967EC22C9802E9008C3ACE /* Arc-POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arc-POCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC967EC62C9802E9008C3ACE /* Arc_POCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc_POCUITests.swift; sourceTree = "<group>"; };
+		AC967EC82C9802E9008C3ACE /* Arc_POCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc_POCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC967EE02C98C022008C3ACE /* amplify_outputs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = amplify_outputs.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC967EA22C9802E8008C3ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC967EE32C98FC0E008C3ACE /* AWSAPIPlugin in Frameworks */,
+				AC967EDB2C98BFDC008C3ACE /* Amplify in Frameworks */,
+				AC967EDD2C98BFDC008C3ACE /* AWSCognitoAuthPlugin in Frameworks */,
+				AC967EDF2C98BFDC008C3ACE /* Authenticator in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC967EB52C9802E9008C3ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC967EBF2C9802E9008C3ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC967E9C2C9802E8008C3ACE = {
+			isa = PBXGroup;
+			children = (
+				AC967EA72C9802E8008C3ACE /* Arc-POC */,
+				AC967EBB2C9802E9008C3ACE /* Arc-POCTests */,
+				AC967EC52C9802E9008C3ACE /* Arc-POCUITests */,
+				AC967EA62C9802E8008C3ACE /* Products */,
+				AC967ED92C98BFDC008C3ACE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC967EA62C9802E8008C3ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC967EA52C9802E8008C3ACE /* Arc-POC.app */,
+				AC967EB82C9802E9008C3ACE /* Arc-POCTests.xctest */,
+				AC967EC22C9802E9008C3ACE /* Arc-POCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC967EA72C9802E8008C3ACE /* Arc-POC */ = {
+			isa = PBXGroup;
+			children = (
+				AC967EA82C9802E8008C3ACE /* Arc_POCApp.swift */,
+				AC967EAA2C9802E8008C3ACE /* ContentView.swift */,
+				AC967EAC2C9802E8008C3ACE /* Item.swift */,
+				AC967EAE2C9802E9008C3ACE /* Assets.xcassets */,
+				AC967EB02C9802E9008C3ACE /* Arc_POC.entitlements */,
+				AC967EE02C98C022008C3ACE /* amplify_outputs.json */,
+				AC967EB12C9802E9008C3ACE /* Preview Content */,
+			);
+			path = "Arc-POC";
+			sourceTree = "<group>";
+		};
+		AC967EB12C9802E9008C3ACE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC967EB22C9802E9008C3ACE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC967EBB2C9802E9008C3ACE /* Arc-POCTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC967EBC2C9802E9008C3ACE /* Arc_POCTests.swift */,
+			);
+			path = "Arc-POCTests";
+			sourceTree = "<group>";
+		};
+		AC967EC52C9802E9008C3ACE /* Arc-POCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC967EC62C9802E9008C3ACE /* Arc_POCUITests.swift */,
+				AC967EC82C9802E9008C3ACE /* Arc_POCUITestsLaunchTests.swift */,
+			);
+			path = "Arc-POCUITests";
+			sourceTree = "<group>";
+		};
+		AC967ED92C98BFDC008C3ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC967EA42C9802E8008C3ACE /* Arc-POC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC967ECC2C9802E9008C3ACE /* Build configuration list for PBXNativeTarget "Arc-POC" */;
+			buildPhases = (
+				AC967EA12C9802E8008C3ACE /* Sources */,
+				AC967EA22C9802E8008C3ACE /* Frameworks */,
+				AC967EA32C9802E8008C3ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arc-POC";
+			packageProductDependencies = (
+				AC967EDA2C98BFDC008C3ACE /* Amplify */,
+				AC967EDC2C98BFDC008C3ACE /* AWSCognitoAuthPlugin */,
+				AC967EDE2C98BFDC008C3ACE /* Authenticator */,
+				AC967EE22C98FC0E008C3ACE /* AWSAPIPlugin */,
+			);
+			productName = "Arc-POC";
+			productReference = AC967EA52C9802E8008C3ACE /* Arc-POC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC967EB72C9802E9008C3ACE /* Arc-POCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC967ECF2C9802E9008C3ACE /* Build configuration list for PBXNativeTarget "Arc-POCTests" */;
+			buildPhases = (
+				AC967EB42C9802E9008C3ACE /* Sources */,
+				AC967EB52C9802E9008C3ACE /* Frameworks */,
+				AC967EB62C9802E9008C3ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC967EBA2C9802E9008C3ACE /* PBXTargetDependency */,
+			);
+			name = "Arc-POCTests";
+			productName = "Arc-POCTests";
+			productReference = AC967EB82C9802E9008C3ACE /* Arc-POCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC967EC12C9802E9008C3ACE /* Arc-POCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC967ED22C9802E9008C3ACE /* Build configuration list for PBXNativeTarget "Arc-POCUITests" */;
+			buildPhases = (
+				AC967EBE2C9802E9008C3ACE /* Sources */,
+				AC967EBF2C9802E9008C3ACE /* Frameworks */,
+				AC967EC02C9802E9008C3ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC967EC42C9802E9008C3ACE /* PBXTargetDependency */,
+			);
+			name = "Arc-POCUITests";
+			productName = "Arc-POCUITests";
+			productReference = AC967EC22C9802E9008C3ACE /* Arc-POCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC967E9D2C9802E8008C3ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AC967EA42C9802E8008C3ACE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AC967EB72C9802E9008C3ACE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AC967EA42C9802E8008C3ACE;
+					};
+					AC967EC12C9802E9008C3ACE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AC967EA42C9802E8008C3ACE;
+					};
+				};
+			};
+			buildConfigurationList = AC967EA02C9802E8008C3ACE /* Build configuration list for PBXProject "Arc-POC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC967E9C2C9802E8008C3ACE;
+			packageReferences = (
+				AC967ED72C9818B4008C3ACE /* XCRemoteSwiftPackageReference "amplify-swift" */,
+				AC967ED82C9818D8008C3ACE /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */,
+			);
+			productRefGroup = AC967EA62C9802E8008C3ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC967EA42C9802E8008C3ACE /* Arc-POC */,
+				AC967EB72C9802E9008C3ACE /* Arc-POCTests */,
+				AC967EC12C9802E9008C3ACE /* Arc-POCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC967EA32C9802E8008C3ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC967EE12C98C03A008C3ACE /* amplify_outputs.json in Resources */,
+				AC967EB32C9802E9008C3ACE /* Preview Assets.xcassets in Resources */,
+				AC967EAF2C9802E9008C3ACE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC967EB62C9802E9008C3ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC967EC02C9802E9008C3ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC967EA12C9802E8008C3ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC967EAB2C9802E8008C3ACE /* ContentView.swift in Sources */,
+				AC967EAD2C9802E8008C3ACE /* Item.swift in Sources */,
+				AC967EA92C9802E8008C3ACE /* Arc_POCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC967EB42C9802E9008C3ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC967EBD2C9802E9008C3ACE /* Arc_POCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC967EBE2C9802E9008C3ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC967EC92C9802E9008C3ACE /* Arc_POCUITestsLaunchTests.swift in Sources */,
+				AC967EC72C9802E9008C3ACE /* Arc_POCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC967EBA2C9802E9008C3ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC967EA42C9802E8008C3ACE /* Arc-POC */;
+			targetProxy = AC967EB92C9802E9008C3ACE /* PBXContainerItemProxy */;
+		};
+		AC967EC42C9802E9008C3ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC967EA42C9802E8008C3ACE /* Arc-POC */;
+			targetProxy = AC967EC32C9802E9008C3ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC967ECA2C9802E9008C3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC967ECB2C9802E9008C3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AC967ECD2C9802E9008C3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Arc-POC/Arc_POC.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Arc-POC/Preview Content\"";
+				DEVELOPMENT_TEAM = T6MS4LN72P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcpoc.Arc-POC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC967ECE2C9802E9008C3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Arc-POC/Arc_POC.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Arc-POC/Preview Content\"";
+				DEVELOPMENT_TEAM = T6MS4LN72P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcpoc.Arc-POC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC967ED02C9802E9008C3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcpoc.Arc-POCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arc-POC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Arc-POC";
+			};
+			name = Debug;
+		};
+		AC967ED12C9802E9008C3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcpoc.Arc-POCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arc-POC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Arc-POC";
+			};
+			name = Release;
+		};
+		AC967ED32C9802E9008C3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcpoc.Arc-POCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arc-POC";
+			};
+			name = Debug;
+		};
+		AC967ED42C9802E9008C3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcpoc.Arc-POCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arc-POC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC967EA02C9802E8008C3ACE /* Build configuration list for PBXProject "Arc-POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC967ECA2C9802E9008C3ACE /* Debug */,
+				AC967ECB2C9802E9008C3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC967ECC2C9802E9008C3ACE /* Build configuration list for PBXNativeTarget "Arc-POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC967ECD2C9802E9008C3ACE /* Debug */,
+				AC967ECE2C9802E9008C3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC967ECF2C9802E9008C3ACE /* Build configuration list for PBXNativeTarget "Arc-POCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC967ED02C9802E9008C3ACE /* Debug */,
+				AC967ED12C9802E9008C3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC967ED22C9802E9008C3ACE /* Build configuration list for PBXNativeTarget "Arc-POCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC967ED32C9802E9008C3ACE /* Debug */,
+				AC967ED42C9802E9008C3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC967ED72C9818B4008C3ACE /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.39.0;
+			};
+		};
+		AC967ED82C9818D8008C3ACE /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ui-swift-authenticator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC967EDA2C98BFDC008C3ACE /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC967ED72C9818B4008C3ACE /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+		AC967EDC2C98BFDC008C3ACE /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC967ED72C9818B4008C3ACE /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		AC967EDE2C98BFDC008C3ACE /* Authenticator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC967ED82C9818D8008C3ACE /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */;
+			productName = Authenticator;
+		};
+		AC967EE22C98FC0E008C3ACE /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC967ED72C9818B4008C3ACE /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AC967E9D2C9802E8008C3ACE /* Project object */;
+}
